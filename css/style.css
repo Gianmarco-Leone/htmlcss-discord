@@ -1,5 +1,9 @@
 /* Generics */
 
+body {
+    font-family: 'Roboto' , sans-serif;
+}
+
 .container {
     display: flex;
 }
@@ -76,12 +80,12 @@ main > section {
 }
 
 .bg_blue .content > h1 {
-    font-size: 40px;
+    font-size: 50px;
     font-weight: bold;
     margin-bottom: 15px;
 }
 
-.bg_blue .content > p {
+main p {
     font-size: 20px;
 }
 
@@ -116,13 +120,17 @@ main > section {
 
 main .main-col {
     width: 60%;
-    min-height: 500px;
+    min-height: 400px;
 }
 
 main .side-col {
-    background-color: #FFC0CB;
     width: 40%;
-    height: 500px;
+    text-align: center;
+}
+
+.side-col > h2 {
+    font-size: 40px;
+    font-weight: bold;
 }
 
 /* Main - Third Section */

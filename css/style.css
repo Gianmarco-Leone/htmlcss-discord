@@ -5,24 +5,33 @@
 }
 
 .container * {
-    border: 3px dashed black;
     padding: 5px 0;
+}
+
+.btn {
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 /* Header */
 
 header {
-    background-color: #ADD8E6;
+    background-color: #3161E0;
     padding: 15px 0;
 }
 
 header > .container {
-    background-color: #DAA520;
+    align-items: center;
 }
 
 .logo-header {
-    width: 300px;
     padding-left: 5px;
+}
+
+.logo-header > img {
+    height: 50px;
 }
 
 .container > nav {
@@ -30,11 +39,18 @@ header > .container {
     text-align: center;
 }
 
-.login {
-    display: flex;
-    justify-content: flex-end;
-    width: 300px;
-    padding-right: 5px;
+nav > a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 10px;
+}
+
+.btn.login {
+    text-align: right;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #fff;
 }
 
 /* Main */
@@ -46,14 +62,50 @@ main > section {
 /* Main - First Section */
 
 .bg_blue {
-    background-color: #00008B;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
 }
 
 .bg_blue  .content {
-    width: 800px;
-    height: 400px;
-    background-color: #EE82EE;
+    width: 60%;
+    min-height: 400px;
     margin: 0 auto;
+    color: #fff;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.bg_blue .content > h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.bg_blue .content > p {
+    font-size: 20px;
+}
+
+.bg_blue .btn {
+    margin: 20px;
+}
+
+.btn.download {
+    font-size: 18px;
+    background-color: #fff;
+}
+
+.btn.browser {
+    font-size: 18px;
+    color: #fff;
+    background-color: #000;
+}
+
+.btn.download::before {
+    display: inline-block;
+    content: '\2193';
+    font-size: 14px;
+    font-weight: bold;
+    padding-right: 5px;
 }
 
 /* Main - Second Section */
@@ -63,9 +115,8 @@ main > section {
 }
 
 main .main-col {
-    background-color: #1E90FF;
     width: 60%;
-    height: 500px;
+    min-height: 500px;
 }
 
 main .side-col {

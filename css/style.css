@@ -137,7 +137,7 @@ main .side-col {
 /* Main - Third Section */
 
 .bg_grey {
-	background-color: #D3D3D3;
+	background-color: #F6F6F6;
 }
 
 /* Main - Fifth Section */
@@ -163,9 +163,10 @@ main .side-col {
 }
 
 .content-bottom {
-    font-size: 36px;
+    font-size: 30px;
     font-weight: bold;
     padding-top: 0;
+    margin-bottom: 36px;
 }
 
 .bg_grey .content > .btn.download {
@@ -182,28 +183,71 @@ footer {
 
 /* Footer - First Section */
 
+.footer-upper {
+    padding-bottom: 30px;
+    margin-top: 50px;
+}
+
+.footer-upper > .container {
+    border-bottom: 2px solid #D3D3D3;
+}
+
 footer .left-col {
     width: calc(100% / 3);
-    height: 500px;
-    background-color: #F08080;
+    min-height: 500px;
+}
+
+.footer-title {
+    color: #6F86D4;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#logo-language {
+    height: 15px;
+    padding: 0;
+}
+
+.left-col > select {
+    padding: 0 2px;
+    color: #fff;
+    background-color: #23272A;
+    border: none;
+}
+
+.icons {
+    color: #fff;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.icons > i {
+    padding: 0 20px 0 0;
 }
 
 footer .right-col {
     width: calc(100% / 3*2);
-    height: 500px;
-    background-color: #20B2AA;
+    min-height: 500px;
     display: flex;
     padding: 0;
 }
 
-.right-col > .lightblue-col {
+.right-col > .list-col {
     width: 25%;
-    border: 3px dashed white;
 }
 
-.footer-upper {
-    padding-bottom: 30px;
-    border-bottom: 2px solid #D3D3D3;
+.list-col > h4 {
+    color: #6F86D4;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.list-col  li > a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 /* Footer - Second Section */

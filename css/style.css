@@ -94,12 +94,12 @@ main p {
 }
 
 .btn.download {
-    font-size: 18px;
+    font-size: 22px;
     background-color: #fff;
 }
 
 .btn.browser {
-    font-size: 18px;
+    font-size: 22px;
     color: #fff;
     background-color: #000;
 }
@@ -144,8 +144,33 @@ main .side-col {
 
 .bg_grey  .content {
     width: 100%;
-    background-color: #228B22;
-    height: 800px;
+    min-height: 800px;
+    text-align: center;
+}
+
+.content-title {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#content-image {
+    width: 100%;
+}
+
+.stars {
+    padding: 0;
+}
+
+.content-bottom {
+    font-size: 36px;
+    font-weight: bold;
+    padding-top: 0;
+}
+
+.bg_grey .content > .btn.download {
+    background-color: #8EA1E1;
+    color: #fff;
 }
 
 /* Footer */

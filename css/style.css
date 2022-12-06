@@ -19,6 +19,11 @@ body {
     text-decoration: none;
 }
 
+.wave {
+    background-color: #F6F6F6;
+}
+
+
 /* Header */
 
 header {
@@ -35,7 +40,7 @@ header > .container {
 }
 
 .logo > img {
-    height: 50px;
+    height: 60px;
 }
 
 .container > nav {
@@ -46,7 +51,7 @@ header > .container {
 nav > a {
     color: white;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
     margin: 10px;
 }
 
@@ -105,9 +110,8 @@ main p {
 
 .btn.download::before {
     display: inline-block;
-    content: '\2193';
-    font-size: 14px;
-    font-weight: bold;
+    content: '\1F817';
+    font-size: 24px;
     padding-right: 5px;
 }
 

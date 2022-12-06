@@ -19,10 +19,14 @@ body {
     text-decoration: none;
 }
 
-.wave {
-    background-color: #F6F6F6;
+.wavy {
+    width: 100%;
+    display: block;
 }
 
+#wave-reverse {
+    rotate: 180deg;
+}
 
 /* Header */
 

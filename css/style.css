@@ -1,0 +1,145 @@
+/* Generics */
+
+.container {
+    display: flex;
+}
+
+.container * {
+    border: 3px dashed black;
+    padding: 5px 0;
+}
+
+/* Header */
+
+header {
+    background-color: #ADD8E6;
+    padding: 15px 0;
+}
+
+header > .container {
+    background-color: #DAA520;
+}
+
+.logo-header {
+    width: 300px;
+    padding-left: 5px;
+}
+
+.container > nav {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.login {
+    display: flex;
+    justify-content: flex-end;
+    width: 300px;
+    padding-right: 5px;
+}
+
+/* Main */
+
+main > section {
+    padding: 30px 0;
+}
+
+/* Main - First Section */
+
+.bg_blue {
+    background-color: #00008B;
+}
+
+.bg_blue  .content {
+    width: 800px;
+    height: 400px;
+    background-color: #EE82EE;
+    margin: 0 auto;
+}
+
+/* Main - Second Section */
+
+.bg_white {
+    background-color: #fff;
+}
+
+main .main-col {
+    background-color: #1E90FF;
+    width: 60%;
+    height: 500px;
+}
+
+main .side-col {
+    background-color: #FFC0CB;
+    width: 40%;
+    height: 500px;
+}
+
+/* Main - Third Section */
+
+.bg_grey {
+	background-color: #D3D3D3;
+}
+
+/* Main - Fifth Section */
+
+.bg_grey  .content {
+    width: 100%;
+    background-color: #228B22;
+    height: 800px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #23272A;
+    padding: 10px 0 0 0;
+}
+
+/* Footer - First Section */
+
+footer .left-col {
+    width: calc(100% / 3);
+    height: 500px;
+    background-color: #F08080;
+}
+
+footer .right-col {
+    width: calc(100% / 3*2);
+    height: 500px;
+    background-color: #20B2AA;
+    display: flex;
+    padding: 0;
+}
+
+.right-col > .lightblue-col {
+    width: 25%;
+    border: 3px dashed white;
+}
+
+.footer-upper {
+    padding-bottom: 30px;
+    border-bottom: 2px solid #D3D3D3;
+}
+
+/* Footer - Second Section */
+
+.footer-bottom .box {
+    background-color: #7FFFD4;
+    width: 100%;
+    height: 80px;
+    margin-top: 30px;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-bottom .logo-footer,
+.footer-bottom .button {
+    background-color: #FFB6C0;
+    padding: 5px;
+}
+
+
+
+

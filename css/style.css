@@ -80,13 +80,13 @@ main > section {
 }
 
 .bg_blue .content > h1 {
-    font-size: 50px;
+    font-size: 60px;
     font-weight: bold;
     margin-bottom: 15px;
 }
 
 main p {
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .bg_blue .btn {
@@ -125,12 +125,13 @@ main .main-col {
 
 main .side-col {
     width: 40%;
-    text-align: center;
+    margin-top: 30px;
 }
 
 .side-col > h2 {
-    font-size: 40px;
+    font-size: 50px;
     font-weight: bold;
+    margin-bottom: 20px;
 }
 
 /* Main - Third Section */
